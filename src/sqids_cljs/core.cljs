@@ -1,7 +1,7 @@
 (ns ^:figwheel-hooks sqids-cljs.core
   (:require
    [sqids-cljs.blocklist :as bl]
-   [clojure.spec.alpha :as cspec]
+   ;[clojure.spec.alpha :as cspec]
    [clojure.string :as cstr]))
 
 ;(cspec/def ::alphabet string?)
