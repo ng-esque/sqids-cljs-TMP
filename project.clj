@@ -1,4 +1,4 @@
-(defproject sqids-cljs "1.0.0"
+(defproject org.clojars.ng-esque/sqids-cljs "1.0.0"
   :description "A small library that lets you generate unique IDs from numbers."
   :url "https://github.com/sqids/sqids-cljs"
   :license {:name "MIT"

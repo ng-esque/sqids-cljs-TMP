@@ -27,12 +27,33 @@ Not good for:
 
 ## 🚀 Getting started
 
-Install Sqids via [Clojars](https://clojars.org/)
+Install Sqids via [Clojars](https://clojars.org/org.clojars.ng-esque/sqids-cljs)
 
-In your project.clj ***:dependencies [ ]****:
+Leiningen/Boot
 
+```clojure
+[org.clojars.ng-esque/sqids-cljs "1.0.0"]
 ```
-  [sqids-cljs "1.0.0"]
+
+Clojure CLI/deps.edn
+
+```clojure
+org.clojars.ng-esque/sqids-cljs {:mvn/version "1.0.0"}
+```
+
+Gradle
+
+```java
+implementation("org.clojars.ng-esque:sqids-cljs:1.0.0")
+```
+Maven
+
+```xml
+<dependency>
+  <groupId>org.clojars.ng-esque</groupId>
+  <artifactId>sqids-cljs</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
 
 Clone this repo:
