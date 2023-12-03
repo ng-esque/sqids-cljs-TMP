@@ -30,9 +30,9 @@ Not good for:
 
 ## 🚀 Getting started
 
-Install Sqids via [lojars](https://clojars.org/)
+Install Sqids via [Clojars](https://clojars.org/)
 
-In your project.clj ***:dependencies []****:
+In your project.clj ***:dependencies [ ]****:
 
 ```
   [sqids-cljs "1.0.0"]
@@ -41,7 +41,7 @@ In your project.clj ***:dependencies []****:
 Clone this repo:
 
 ```bash
-git clone .../sqids-cljs
+git clone https://github.com/sqids/sqids-cljs
 cd sqids-cljs
 lein fig:test
 ```
