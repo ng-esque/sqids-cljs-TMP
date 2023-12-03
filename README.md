@@ -1,8 +1,5 @@
 # [Sqids ClojureScript](https://sqids.org/sqids-cljs)
 
-[![npm version](https://img.shields.io/npm/v/sqids.svg)](https://www.npmjs.com/package/sqids)
-[![Downloads](https://img.shields.io/npm/dm/sqids)](https://www.npmjs.com/package/sqids)
-
 [Sqids](https://sqids.org/clojurescript) (*pronounced "squids"*) is a small library that lets you **generate unique IDs from numbers**. It's good for link shortening, fast & URL-safe ID generation and decoding back into numbers for quicker database lookups.
 
 Features:
