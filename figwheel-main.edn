@@ -1,0 +1,6 @@
+{ :target-dir "resources"
+;; Tests causing time out
+;; Caused by: clojure.lang.ExceptionInfo: Eval timed out! 
+;;    {:type :js-eval-exception, :error {:status :exception, :value "Eval timed out!", :stacktrace "No stacktrace available."},
+;; https://github.com/bhauman/figwheel-main/blob/master/doc/figwheel-main-options.md#repl-eval-timeout
+:repl-eval-timeout 30000} ;; Default: 8000, 8s
