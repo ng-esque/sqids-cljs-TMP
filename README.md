@@ -65,7 +65,7 @@ git clone https://github.com/sqids/sqids-cljs
 cd sqids-cljs
 lein fig:test
 ```
-The main Sqids library is in src/sqids_cljs/core.cljs; unit tests are in test/sqids_cljs/.
+The main Sqids library is in ***src/sqids_cljs/core.cljs***, unit tests are in ***test/sqids_cljs/***.
 
 Use the following to format & check changes:
 ```bash
