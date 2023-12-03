@@ -29,24 +29,24 @@ Not good for:
 
 Install Sqids via [Clojars](https://clojars.org/org.clojars.ng-esque/sqids-cljs)
 
-Leiningen/Boot
+### Leiningen/Boot
 
 ```clojure
 [org.clojars.ng-esque/sqids-cljs "1.0.0"]
 ```
 
-Clojure CLI/deps.edn
+### Clojure CLI/deps.edn
 
 ```clojure
 org.clojars.ng-esque/sqids-cljs {:mvn/version "1.0.0"}
 ```
 
-Gradle
+### Gradle
 
 ```java
 implementation("org.clojars.ng-esque:sqids-cljs:1.0.0")
 ```
-Maven
+### Maven
 
 ```xml
 <dependency>
@@ -55,6 +55,8 @@ Maven
   <version>1.0.0</version>
 </dependency>
 ```
+
+### From source
 
 Clone this repo:
 
