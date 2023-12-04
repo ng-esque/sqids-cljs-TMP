@@ -18,7 +18,7 @@
     <url>https://github.com/ng-esque/sqids-cljs-TMP</url>
     <connection>scm:git:git://github.com/ng-esque/sqids-cljs-TMP.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/ng-esque/sqids-cljs-TMP.git</developerConnection>
-    <tag>1c1b235ad8e105a29c6ee6ff597ae571fabac3c8</tag>
+    <tag>e196b1f155316ea32d8a63fd9b6a275c5824d854</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
