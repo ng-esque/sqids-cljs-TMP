@@ -32,19 +32,19 @@ Install Sqids via [Clojars](https://clojars.org/org.clojars.ng-esque/sqids-cljs)
 ### Leiningen/Boot
 
 ```clojure
-[org.clojars.ng-esque/sqids-cljs "1.0.0"]
+[org.clojars.ng-esque/sqids-cljs "1.0.1"]
 ```
 
 ### Clojure CLI/deps.edn
 
 ```clojure
-org.clojars.ng-esque/sqids-cljs {:mvn/version "1.0.0"}
+org.clojars.ng-esque/sqids-cljs {:mvn/version "1.0.1"}
 ```
 
 ### Gradle
 
 ```java
-implementation("org.clojars.ng-esque:sqids-cljs:1.0.0")
+implementation("org.clojars.ng-esque:sqids-cljs:1.0.1")
 ```
 ### Maven
 
@@ -52,7 +52,7 @@ implementation("org.clojars.ng-esque:sqids-cljs:1.0.0")
 <dependency>
   <groupId>org.clojars.ng-esque</groupId>
   <artifactId>sqids-cljs</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 

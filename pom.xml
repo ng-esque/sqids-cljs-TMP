@@ -4,7 +4,7 @@
   <groupId>org.clojars.ng-esque</groupId>
   <artifactId>sqids-cljs</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>sqids-cljs</name>
   <description>A small library that lets you generate unique IDs from numbers.</description>
   <url>https://github.com/sqids/sqids-cljs</url>
@@ -18,7 +18,7 @@
     <url>https://github.com/ng-esque/sqids-cljs-TMP</url>
     <connection>scm:git:git://github.com/ng-esque/sqids-cljs-TMP.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/ng-esque/sqids-cljs-TMP.git</developerConnection>
-    <tag>e196b1f155316ea32d8a63fd9b6a275c5824d854</tag>
+    <tag>1165ebc004d9dca7d7f55aedcf67dd53aa02144a</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
