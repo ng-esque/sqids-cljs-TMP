@@ -85,7 +85,11 @@ Simple encode & decode:
 
 Due to multi-arity being unsupported by ***(deftype )*** an ***options*** argument must be passed at initialisation.  Empty uses defaults.
 ```clojurescript
-(let [sqids (Sqids. {})]) ;; use default-options
+(ns example.core
+  (:require
+   [sqids-cljs.core :refer [Sqids]]))
+
+(let [sqids (Sqids. {})]) ;; uses default-options
 ```
 
 > **Note**
