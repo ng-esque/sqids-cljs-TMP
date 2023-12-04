@@ -1,13 +1,7 @@
 (ns ^:figwheel-hooks sqids-cljs.core
   (:require
    [sqids-cljs.blocklist :as bl]
-   ;[clojure.spec.alpha :as cspec]
    [clojure.string :as cstr]))
-
-;(cspec/def ::alphabet string?)
-;(cspec/def ::minLength (cspec/and number? #(>= % 0) #(<= % 255))) ;; u8:0-255
-;(cspec/def ::blocklist set?)
-;(cspec/def ::sqids-options (cspec/keys :req-un [::alphabet ::minLength ::blocklist]))
 
 	                        ;; url-safe characters
 (def default-options {:alphabet "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
@@ -86,7 +80,6 @@
       (throw (js/Error. "Alphabet must contain unique characters")))
     (when (or (not (number? min-length)) (< min-length 0) (> min-length 255))
       (throw (js/Error. (str "Minimum length has to be between 0 and 255"))))
-    ;(cspec/assert ::sqids-options sqids-options)
     sqids-options))
 
 ;;  This function is for the (cstr/escape ) used in (decode ) on the character separator before being passed to (re-pattern ).
